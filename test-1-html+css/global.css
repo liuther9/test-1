@@ -92,7 +92,7 @@ main {
 	body {
 		font-size: 16px;
 	}
-
+	
 	.title {
 		font-size: 28px;
 		margin-bottom: 16px;
@@ -103,6 +103,8 @@ main {
 	}
 
 	.container--bot {
+		display: flex;
+		flex-direction: column;
 		padding-top: 280px;
 		grid-template-columns: 1fr;
 	}
